@@ -1,8 +1,6 @@
 파이썬에서는 리스트를 더 편리하고 간결한 방식으로 사용할 수 있도록 map, filter와 같은 내장함수를 제공한다.
 
-[reference link](http://book.pythontips.com/en/latest/map_filter.html)
-
-
+참조링크: [reference link](http://book.pythontips.com/en/latest/map_filter.html)
 
 이 함수들은 한 리스트에서 특정 표현식, 조건식으로 필요한 값을 뽑아낼 수 있도록 도와준다.
 
@@ -48,7 +46,7 @@ squared(using for loop): [1, 4, 9, 16, 25]
 <pre><code>
 items = [1,2,3,4,5]
 squared = []
-squared = list(map(lambda x: x ** 2, items))
+squared = list(map(lambda x: x**2, items))
 </code></pre>
 print('squared(using lambda, map): {}'.format(squared))
 
