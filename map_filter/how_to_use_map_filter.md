@@ -2,6 +2,10 @@
 
 참조링크: [reference link](http://book.pythontips.com/en/latest/map_filter.html)
 
+
+Link: [map filter doc][python reference doc]
+[python reference doc]:http://book.pythontips.com/en/latest/map_filter.html
+
 이 함수들은 한 리스트에서 특정 표현식, 조건식으로 필요한 값을 뽑아낼 수 있도록 도와준다.
 
 for문을 사용해서 구현을 해도 되지만, 이 함수들을 사용하면 더욱 간결한 방법으로 구현할 수 있다.
