@@ -19,20 +19,20 @@ map의 기본적인 표현식은 다음과 같다.
 
 (첫번째 인자로는 대부분 lamda와 같은 표현식을 사용한다.)
 
-'''python
+~~~python
 map(function_to_apply, list_of_inputs)
-'''
+~~~
 
 우선, 한 리스트의 원소들의 제곱을 한 리스트를 출력하는 알고리즘을 for문을 이용해서 구현한 코드를 보자
 
 
-'''python
+~~~python
 items = [1,2,3,4,5]
 squared = []
 for i in items:
     squared.append(i**2)
 print('squared(using for loop): {}'.format(squared))
-'''
+~~~
 
 
 출력결과는 다음과 같다.
