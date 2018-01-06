@@ -43,11 +43,11 @@ squared(using for loop): [1, 4, 9, 16, 25]
 훨씬 더 간결한 코드로 바뀐 것 같다.
 
 
-<pre><code>
+~~~python
 items = [1,2,3,4,5]
 squared = []
 squared = list(map(lambda x: x**2, items))
-</code></pre>
+~~~
 print('squared(using lambda, map): {}'.format(squared))
 
 출력결과는 다음과 같다.
@@ -65,7 +65,7 @@ funcs라는 리스트는 함수들이 원소로 구성되어있다.
 funcs의 원소들에 0~4까지의 값들을 넘겨주게 될것이고
 funcs의 원소들인 함수에 0~4까지의 값들이 전달되게 된다.
 결국 출력은 [제곱, 두배]의 쌍이 출력되게 된다..
-<pre><code>
+~~~python
 def multiply(x):
     return (x*x)
 def add(x):
@@ -82,7 +82,7 @@ for i in range(5):
 # [4, 4]
 # [9, 6]
 # [16, 8]
-</code></pre>
+~~~
 
 흠..리스트에 함수가 들어갈 수 있다는 건 처음 알았다.
 이것도 다음에 한번 알아보기로 하자
@@ -95,10 +95,10 @@ filter는 특정 조건을 만족하는 값들만 걸러내는 것이고, map은
 map과 filter를 같이 사용하면 더 간결한 코드를 작성할 수 있는 것 같다.
 위에서 작성했던 제곱값 리스트(squared) 를 얻어오는 예제를 재활용해서 filter를 어떻게 사용하는지 확인해보자..
 
-<pre><code>
+~~~python
 more_than_nine = list(filter(lambda x: x>9, squared))
 print('more_than_nine: {}'.format(more_than_nine))
-</code></pre>
+~~~
 
 출력결과는 다음과 같다.
 more_than_nine: [16, 25]
