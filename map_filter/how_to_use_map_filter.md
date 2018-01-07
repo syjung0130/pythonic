@@ -29,7 +29,6 @@ map(function_to_apply, list_of_inputs)
 
 우선, 한 리스트의 원소들의 제곱을 한 리스트를 출력하는 알고리즘을 for문을 이용해서 구현한 코드를 보자
 
-<pre><code>
 ~~~python
 items = [1,2,3,4,5]
 squared = []
@@ -37,7 +36,6 @@ for i in items:
     squared.append(i**2)
 print('squared(using for loop): {}'.format(squared))
 ~~~
-</code></pre>
 
 출력결과는 다음과 같다.
 squared(using for loop): [1, 4, 9, 16, 25]
