@@ -42,6 +42,6 @@ assert even_squares == list(alt)
 ~~~
 
 
-4. C++등 다른 언어에도 컴프리헨션 문법이 있다고 한다
+4.C++등 다른 언어에도 컴프리헨션 문법이 있다고 한다
 =====================================================
 [wiki](https://en.wikipedia.org/wiki/List_comprehension)
